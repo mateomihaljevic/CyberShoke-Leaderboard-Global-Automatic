@@ -27,5 +27,16 @@ Each run creates a snapshot (CSV + JSON) and updates `latest.json` for the web U
 
 ---
 
-## Project Structure
+## Project Structure -
+├── cybershokeleaderboard_bot.py # Scraper bot
+├── gui.py # Desktop GUI
+├── start.bat # One-click start (Windows)
+├── data/
+│ ├── latest.json # Used by web GUI
+│ ├── *.csv # Snapshots
+│ └── *.json # Snapshots
+└── web/
+├── index.html # Web GUI
+├── style.css
+└── app.js
 
